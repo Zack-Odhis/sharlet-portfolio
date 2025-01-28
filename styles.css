@@ -1,0 +1,43 @@
+.other_images {
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+}
+.color-gradient {
+    background: radial-gradient(circle, #F3FEB8, #FFDE4D); 
+}
+@keyframes color-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.noto{
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+h2{
+    font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.thumbnails{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.foundation {
+    height: 400px;
+    width: 400px;
+    border-radius: 10%
+}
